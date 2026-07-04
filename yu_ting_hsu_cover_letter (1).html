@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yu-Ting Hsu | Professional Cover Letter</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        signature: ['Caveat', 'cursive'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#f0fdfa',
+                            100: '#ccfbf1',
+                            500: '#14b8a6',
+                            700: '#0f766e',
+                            900: '#134e4a',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #f3f4f6;
+            color: #1f2937;
+        }
+        .banner-bg {
+            /* 
+              【更換橫幅背景圖】
+              請將下方 url('...') 內的網址替換成您的圖片網址，或同資料夾的檔案名稱（例如 url('./banner.jpg')） 
+            */
+            background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.95)), url('https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1600&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+        }
+    </style>
+</head>
+<body class="antialiased min-h-screen flex items-center justify-center py-10 px-4 sm:px-6 lg:px-8">
+
+    <div class="max-w-5xl w-full bg-white rounded-2xl shadow-xl overflow-hidden relative">
+        
+        <!-- Header / Banner Section -->
+        <header class="banner-bg w-full h-64 sm:h-80 relative flex flex-col items-center justify-center text-center px-4">
+            <!-- Name (Signature Style) -->
+            <h1 class="font-signature text-6xl sm:text-7xl text-gray-800 mb-4 tracking-wide transform -rotate-2">
+                Yu-Ting Hsu
+            </h1>
+            
+            <!-- Professional Titles -->
+            <p class="text-xs sm:text-sm md:text-base font-semibold tracking-widest text-gray-600 uppercase mb-6 flex flex-wrap justify-center gap-2 max-w-3xl">
+                <span>IT Manager</span> <span class="text-gray-400">•</span>
+                <span>M365</span> <span class="text-gray-400">•</span>
+                <span>Power Platform</span> <span class="text-gray-400">•</span>
+                <span>Digital Strategy</span> <span class="text-gray-400">•</span>
+                <span>AI-Driven Content</span> <span class="text-gray-400">•</span>
+                <span>Career Mentoring</span>
+            </p>
+
+            <!-- Contact Info -->
+            <div class="flex flex-wrap items-center justify-center gap-6 text-sm text-gray-600 font-medium">
+                <a href="mailto:holangtw@gmail.com" class="flex items-center gap-2 hover:text-brand-500 transition-colors">
+                    <i class="ph ph-envelope-simple text-lg"></i>
+                    holangtw@gmail.com
+                </a>
+                <a href="https://holang.tw" target="_blank" class="flex items-center gap-2 hover:text-brand-500 transition-colors">
+                    <i class="ph ph-globe text-lg"></i>
+                    holang.tw
+                </a>
+                <a href="https://vocus.cc/salon/yutinsight" target="_blank" class="flex items-center gap-2 hover:text-brand-500 transition-colors">
+                    <i class="ph ph-article text-lg"></i>
+                    Vocus Salon
+                </a>
+            </div>
+        </header>
+
+        <!-- Profile Picture Overlay -->
+        <div class="absolute top-48 sm:top-64 left-8 sm:left-12">
+            <div class="w-32 h-32 sm:w-40 sm:h-40 rounded-full border-4 border-white shadow-lg bg-gray-200 overflow-hidden relative group">
+                <!-- Fallback gradient if image doesn't load -->
+                <div class="absolute inset-0 bg-gradient-to-br from-[#e0f2f1] to-[#b2dfdb]"></div>
+                <!-- 
+                  【更換大頭貼】
+                  請將下方 src="..." 內的網址替換成您的大頭貼網址，或同資料夾的檔案名稱（例如 src="./profile.jpg"）
+                -->
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80" 
+                     alt="Yu-Ting Hsu" 
+                     class="w-full h-full object-cover relative z-10">
+            </div>
+        </div>
+
+        <!-- Main Content (Cover Letter / Bio) -->
+        <main class="pt-20 sm:pt-24 pb-12 px-8 sm:px-12 lg:px-16">
+            
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+                
+                <!-- Left Column: The "Letter" -->
+                <div class="lg:col-span-2 space-y-6 text-gray-700 leading-relaxed text-lg">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-6 border-b pb-2">Professional Summary</h2>
+                    
+                    <p>
+                        I am a dynamic professional with over <strong>10 years of experience</strong> bridging the gap between technology and business. With a unique journey transitioning from accounting to IT, I specialize in driving digital transformation, optimizing operational workflows, and empowering teams with cutting-edge tools.
+                    </p>
+                    
+                    <p>
+                        As the <strong>Head of the Application Systems Team at Continental Holdings Group (#3703)</strong>, I lead a multidisciplinary team of engineers and project managers to implement scalable digital solutions. My expertise includes implementing <strong>M365</strong>, introducing low-code platforms like <strong>Power Platform</strong>, and driving user adoption through impactful training programs that have reached over 1,000 participants.
+                    </p>
+
+                    <div class="mt-10 p-6 bg-brand-50 rounded-xl border border-brand-100">
+                        <h3 class="text-xl font-bold text-brand-900 mb-4 flex items-center gap-2">
+                            <i class="ph-fill ph-globe-hemisphere-east text-brand-500"></i>
+                            Community Engagement
+                        </h3>
+                        <p class="text-brand-900 text-base">
+                            Passionate about knowledge sharing, I regularly mentor students and professionals in career development and digital transformation. As a speaker, I’ve inspired audiences at top universities and industry events, addressing topics like project management and AI in business.
+                        </p>
+                        <a href="https://vocus.cc/salon/yutinsight" target="_blank" class="inline-flex items-center gap-2 mt-4 px-5 py-2.5 bg-brand-500 text-white text-sm font-semibold rounded-lg hover:bg-brand-700 transition-colors shadow-sm">
+                            <i class="ph ph-book-open"></i>
+                            Read My Insights on Vocus
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Column: Highlights & Achievements -->
+                <div class="space-y-8">
+                    
+                    <!-- Key Achievements -->
+                    <div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-5 flex items-center gap-2">
+                            <i class="ph-fill ph-lightbulb text-yellow-500 text-2xl"></i>
+                            Key Achievements
+                        </h3>
+                        
+                        <ul class="space-y-4">
+                            <li class="flex items-start gap-3">
+                                <div class="mt-1 bg-green-100 text-green-600 rounded-full p-1">
+                                    <i class="ph-bold ph-check text-sm"></i>
+                                </div>
+                                <p class="text-sm text-gray-700">
+                                    <strong class="text-gray-900 block mb-1">Continental Star Award (2024)</strong>
+                                    Successfully spearheaded the digitization of workflows for transformative low-code platform implementation.
+                                </p>
+                            </li>
+                            
+                            <li class="flex items-start gap-3">
+                                <div class="mt-1 bg-green-100 text-green-600 rounded-full p-1">
+                                    <i class="ph-bold ph-trend-up text-sm"></i>
+                                </div>
+                                <p class="text-sm text-gray-700">
+                                    <strong class="text-gray-900 block mb-1">300% Productivity Increase</strong>
+                                    Delivered over 30 training sessions on digital tools, significantly boosting team efficiency.
+                                </p>
+                            </li>
+
+                            <li class="flex items-start gap-3">
+                                <div class="mt-1 bg-green-100 text-green-600 rounded-full p-1">
+                                    <i class="ph-bold ph-graduation-cap text-sm"></i>
+                                </div>
+                                <p class="text-sm text-gray-700">
+                                    <strong class="text-gray-900 block mb-1">IT University & AI Next</strong>
+                                    Led cross-functional initiatives to establish these platforms, fostering knowledge-sharing and team growth.
+                                </p>
+                            </li>
+
+                            <li class="flex items-start gap-3">
+                                <div class="mt-1 bg-green-100 text-green-600 rounded-full p-1">
+                                    <i class="ph-bold ph-medal text-sm"></i>
+                                </div>
+                                <p class="text-sm text-gray-700">
+                                    <strong class="text-gray-900 block mb-1">Taipei Women in Tech (2024)</strong>
+                                    Honored as an awardee for contributions to the tech community and career mentorship.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Connect -->
+                    <div class="pt-6 border-t border-gray-100">
+                        <h3 class="text-sm font-bold text-gray-400 uppercase tracking-wider mb-4">Connect With Me</h3>
+                        <div class="flex gap-4">
+                            <a href="https://www.linkedin.com/in/yu-ting-hsu-tw/" target="_blank" class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-600 hover:bg-[#0A66C2] hover:text-white transition-all shadow-sm">
+                                <i class="ph-logo-linkedin text-xl"></i>
+                            </a>
+                            <a href="mailto:holangtw@gmail.com" class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-600 hover:bg-brand-500 hover:text-white transition-all shadow-sm">
+                                <i class="ph ph-envelope-simple text-xl"></i>
+                            </a>
+                            <a href="https://holang.tw" target="_blank" class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-600 hover:bg-gray-800 hover:text-white transition-all shadow-sm">
+                                <i class="ph ph-link text-xl"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+        </main>
+    </div>
+
+    <!-- Music Player Elements -->
+    <audio id="bg-music" loop>
+        <source src="https://img.ai365.fans/artworks/03c7796d-2cd0-476a-898e-e349f58c8167/h0w4ubap14u.mp3" type="audio/mpeg">
+    </audio>
+
+    <button id="music-toggle" class="fixed bottom-6 right-6 w-12 h-12 bg-white text-brand-600 rounded-full shadow-[0_8px_30px_rgb(0,0,0,0.12)] flex items-center justify-center z-50 hover:bg-brand-50 hover:-translate-y-1 transition-all duration-300 border border-brand-100 group focus:outline-none" aria-label="Toggle Music">
+        <i id="music-icon" class="ph-fill ph-speaker-slash text-2xl group-hover:scale-110 transition-transform"></i>
+        <!-- Tooltip -->
+        <span class="absolute right-full mr-4 whitespace-nowrap bg-gray-800 text-white text-xs px-3 py-1.5 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none shadow-lg after:content-[''] after:absolute after:top-1/2 after:-right-1 after:-mt-1 after:border-4 after:border-transparent after:border-l-gray-800">
+            Play Music
+        </span>
+    </button>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const audio = document.getElementById('bg-music');
+            const toggleBtn = document.getElementById('music-toggle');
+            const icon = document.getElementById('music-icon');
+            const tooltip = toggleBtn.querySelector('span');
+
+            let isPlaying = false;
+
+            // Lower the volume a bit so it's pleasant background music
+            audio.volume = 0.4;
+
+            toggleBtn.addEventListener('click', () => {
+                if (isPlaying) {
+                    audio.pause();
+                    // Update icon to muted
+                    icon.classList.remove('ph-speaker-high', 'text-brand-500', 'animate-pulse');
+                    icon.classList.add('ph-speaker-slash');
+                    tooltip.textContent = 'Play Music';
+                } else {
+                    audio.play().then(() => {
+                        // Update icon to playing
+                        icon.classList.remove('ph-speaker-slash');
+                        icon.classList.add('ph-speaker-high', 'text-brand-500', 'animate-pulse');
+                        tooltip.textContent = 'Pause Music';
+                    }).catch(error => {
+                        console.error("Audio playback failed:", error);
+                    });
+                }
+                isPlaying = !isPlaying;
+            });
+        });
+    </script>
+</body>
+</html>
